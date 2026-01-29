@@ -1,0 +1,20 @@
+
+Komplexe Aufgabe:
+Ein Serverraum wird durch eine Alarmanlage folgender Struktur gesichert.
+o	Die Tür wird durch einen Taster T gesichert (Tür offen: Signal 1).
+o	Im Raum ist ein Bewegungsmelder B installiert (Bewegung bemerkt: Signal 1)
+o	Die Alarmanlage wird durch einen Schlüsselschalter S außerhalb des Raumes ein- und ausgeschaltet (Schlüsselschalter an/Alarmanlage scharf: Signal 1)
+o	Ein Signalhorn H ertönt, wenn die Alarmanlage scharf geschaltet wurde und an der Tür oder im Raum ein unberechtigtes Eindringen registriert wurde.
+A)	Erstellen Sie die vollständige Wahrheitstabelle für die drei Eingangsvariablen T,B und S sowie das Ausgangssignal H und geben sie die Schaltfunktion für H an.
+B)	Entwerfen Sie eine logische Schaltung aus Grundgattern für die beschreibende Alarmanlage
+T	B	S	H
+0	0	0	0
+0	0	1	0
+0	1	0	0
+1	0	0	0
+0	1	1	1
+1	0	1	1
+1	1	0	0
+1	1	1	1
+
+Schaltterm:	H= (T˅B) ˄ S
